@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 style="color:plum; font-size:40px;">Hello world!</h1>
+
+    <h3>A subtitle</h3>
+
+    <button id = 'navigateButton'>Go to another page</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'documents/ds4200/test/test.html'
+        })
+    </script>
+
+    <p id = 'main'>My name is Tiffany Zhang.</p>
+    <p class = 'A'>Today is a <b>good</b> day.</p>
+    <p>I will get an A in <i>DS4200</i>.</p>
+
+    <a href="https://www.northeastern.edu">Please check my university webpage</a>
+
+    <ul class = 'A'>
+        <li>Talk to my TAs</li>
+        <li>Do homework</li>
+        <li>Read some paper</li>
+    </ul>
+
+    <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" alt="" width = 500>
+
+</body>
+</html>

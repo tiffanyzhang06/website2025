@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+#main {
+    color: purple;
+    background-color: paleturquoise
+}
+
+.A {
+    border: 5px solid black;
+    padding: 0 10px 20px 30px;
+}
